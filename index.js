@@ -1,17 +1,17 @@
 
-//function currentLine(line) {
-//  if (!line.length) {
-  //  return "The line is currently empty."
-//  }
+function currentLine(line) {
+  if (!line.length) {
+ return "The line is currently empty."
+  }
 
-//  const numbersAndNames = []
+  const numbersAndNames = []
 
-//  for (let i = 0, l = line.length; i < l; i++) {
-//    numbersAndNames.push(`${i + 1}. ${line[i]}`)
-//  }
+  for (let i = 0, l = line.length; i < l; i++) {
+    numbersAndNames.push(`${i + 1}. ${line[i]}`)
+  }
 
-//  return `The line is currently: ${numbersAndNames.join(', ')}`
-//};
+  return `The line is currently: ${numbersAndNames.join(', ')}`
+};
 
 //function nowServing(line) {
 //  if (!line.length) {
@@ -33,10 +33,5 @@
 
 
 
-const katzDeli = [];
-function takeANumber(katzDeliLine){
-  for (let i = 0; l < katzDeliLine.length; i<l; i++ ){
-    katzDeli.push("You are number ${i} in line.")
-  }
-  return katzDeli
+
 }
