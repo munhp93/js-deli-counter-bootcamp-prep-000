@@ -38,4 +38,5 @@ function takeANumber(katzDeliLine){
   for (i = 0; l < katzDeliLine.length; i++ ){
     katzDeli.push("You are number ${i} in line.")
   }
+  return katzDeli
 }
