@@ -26,3 +26,12 @@ function currentLine(line) {
 
 //  return `Welcome, ${name}. You are number ${line.length} in line.`
 //};
+
+
+function nowServing(line){
+  if (!line.length){
+    return ("There is nobody in line.")
+
+    }
+  }
+}
