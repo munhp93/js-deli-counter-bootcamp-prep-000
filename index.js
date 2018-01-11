@@ -35,7 +35,7 @@
 
 var katzDeli = [];
 function takeANumber(katzDeliLine){
-  for (let i = 0; l < katzDeliLine.length; l<1; i++ ){
+  for (let i = 0; l < katzDeliLine.length; i<l; i++ ){
     katzDeli.push("You are number ${i} in line.")
   }
   return katzDeli
